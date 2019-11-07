@@ -1,0 +1,42 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Nov  7 12:08:59 2019
+
+@author: KyleRose
+"""
+
+# Kyle Rose
+# Kyle.Rose28@myhunter.cuny.edu
+# November 7, 2019
+# This program calculates computer fare for an input of zones and ticketType
+
+def computeFare(zone, ticketType):
+     """
+     Takes as two parameters: the zone and ticket type.
+     Returns the Copenhagen Transit fare, as follows:
+     If the zone is 2 or smaller and the ticket type is "adult", the fare is 23.
+     If the zone is 2 or smaller and the ticket type is "child", the fare is 11.5.
+     If the zone is 3 and the ticket type is "adult", the fare is 34.5.
+     If the zone is 4 and the ticket type is "adult", the fare is 46.
+     if the zone is 3 or 4 and the ticket type is "child", the far is 23.
+     If the zone is greater than 4, return a negative number.
+     """
+     
+     
+     fare = 0
+     
+
+        
+     return(fare)
+
+def main():
+     z = int(input('Enter the number of zones: '))
+     t = input('Enter the ticket type (adult/child): ').lower()
+     fare = computeFare(z,t)
+     print('The fare is', fare)
+
+#Allow script to be run directly:
+if __name__ == "__main__":
+     main()
+                   
